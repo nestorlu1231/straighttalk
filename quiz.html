@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz | StraightTalk</title>
+  <meta name="description" content="A 10-question quiz on drug facts, risks, the law and getting help, with instant feedback.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">!</span>STRAIGHT<span>TALK</span></a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="facts.html">Fact Files</a>
+        <a href="brain.html">Your Brain</a>
+        <a href="choices.html">Choices</a>
+        <a href="law.html">The Law</a>
+        <a href="quiz.html" aria-current="page">Quiz</a>
+        <a class="nav-help" href="help.html">Get Help</a>
+        <button class="theme-btn" id="themeBtn" type="button">Dark mode</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-head pink">
+    <div class="wrap">
+      <div class="crumbs"><a href="index.html">Home</a> › Quiz</div>
+      <h1>Test your knowledge</h1>
+      <p>10 questions, instant feedback. <span class="chip green" data-best>No quiz score yet</span></p>
+    </div>
+  </div>
+
+  <main id="main">
+    <section>
+      <div class="wrap">
+        <div class="card quiz-box" id="quiz">
+          <noscript>This quiz needs JavaScript. Please enable it in your browser.</noscript>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>StraightTalk</strong>: educational use only, not medical advice. In an emergency call 911. <a href="help.html">See help options</a>.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

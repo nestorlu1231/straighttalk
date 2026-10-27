@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fact Files | StraightTalk</title>
+  <meta name="description" content="Plain-language fact files on common substances: what they do, short-term risks and long-term harm.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">!</span>STRAIGHT<span>TALK</span></a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="facts.html" aria-current="page">Fact Files</a>
+        <a href="brain.html">Your Brain</a>
+        <a href="choices.html">Choices</a>
+        <a href="law.html">The Law</a>
+        <a href="quiz.html">Quiz</a>
+        <a class="nav-help" href="help.html">Get Help</a>
+        <button class="theme-btn" id="themeBtn" type="button">Dark mode</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-head yellow">
+    <div class="wrap">
+      <div class="crumbs"><a href="index.html">Home</a> › Fact Files</div>
+      <h1>Fact Files</h1>
+      <p>What common substances do to the body and mind, and why they are risky. Information only, no how-to.</p>
+    </div>
+  </div>
+
+  <main id="main">
+    <section>
+      <div class="wrap">
+        <div class="filters" role="group" aria-label="Filter fact files by type">
+          <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" type="button" data-filter="stimulant" aria-pressed="false">Stimulants</button>
+          <button class="filter" type="button" data-filter="depressant" aria-pressed="false">Depressants</button>
+          <button class="filter" type="button" data-filter="halluc" aria-pressed="false">Mind-altering</button>
+          <button class="filter" type="button" data-filter="other" aria-pressed="false">Other risks</button>
+        </div>
+        <p class="hint" id="filterStatus" role="status" aria-live="polite">Showing 8 fact files.</p>
+
+        <div class="grid grid-2">
+          <article class="card fact" data-cat="depressant">
+            <header class="h-dep"><h3>Alcohol</h3><span class="chip">Depressant</span></header>
+            <div class="body">
+              <h4>What it does</h4><p>Slows the brain and body, which affects judgment, balance and reaction time.</p>
+              <h4>Short-term risks</h4><p>Slurred speech, poor decisions, blackouts, accidents and injuries, and alcohol poisoning when too much is taken.</p>
+              <h4>Longer-term risks</h4><p>Liver damage, dependence, mood problems, and harm to a developing teen brain.</p>
+            </div>
+          </article>
+
+          <article class="card fact" data-cat="stimulant">
+            <header class="h-stim"><h3>Nicotine: cigarettes &amp; vapes</h3><span class="chip">Stimulant</span></header>
+            <div class="body">
+              <h4>What it does</h4><p>Nicotine speeds up the heart and quickly creates dependence. Many vapes contain it.</p>
+              <h4>Short-term risks</h4><p>Raised heart rate, irritated throat and lungs, and cravings that make it hard to concentrate.</p>
+              <h4>Longer-term risks</h4><p>Strong addiction, lung and heart problems, and effects on attention and learning in young people. "Safer than cigarettes" does not mean safe.</p>
+            </div>
+          </article>
+
+          <article class="card fact" data-cat="stimulant">
+            <header class="h-stim"><h3>Methamphetamine ("shabu")</h3><span class="chip">Stimulant · Illegal</span></header>
+            <div class="body">
+              <h4>What it does</h4><p>A powerful stimulant that overloads the brain's reward system and pushes the heart and body into overdrive.</p>
+              <h4>Short-term risks</h4><p>Very high heart rate and blood pressure, overheating, severe anxiety, no sleep, and risky or violent behavior.</p>
+              <h4>Longer-term risks</h4><p>Strong dependence, paranoia and hallucinations, heart and dental damage, memory and mood problems.</p>
+            </div>
+          </article>
+
+          <article class="card fact" data-cat="halluc">
+            <header class="h-halluc"><h3>Cannabis</h3><span class="chip">Mind-altering · Illegal for recreation in the PH</span></header>
+            <div class="body">
+              <h4>What it does</h4><p>Changes mood, perception and thinking, and slows reaction time.</p>
+              <h4>Short-term risks</h4><p>Poor memory and focus, anxiety or panic in some people, and impaired coordination that makes accidents more likely.</p>
+              <h4>Longer-term risks</h4><p>Trouble with learning and memory when used regularly by teens, and dependence for some people.</p>
+            </div>
+          </article>
+
+          <article class="card fact" data-cat="depressant">
+            <header class="h-dep"><h3>Opioids &amp; misused painkillers</h3><span class="chip">Depressant</span></header>
+            <div class="body">
+              <h4>What it does</h4><p>Blocks pain and slows breathing. Doctors use some opioids for severe pain, but misuse is very dangerous.</p>
+              <h4>Short-term risks</h4><p>Drowsiness, confusion, and dangerously slow breathing that can be fatal, especially when mixed with alcohol or other sedatives.</p>
+              <h4>Longer-term risks</h4><p>Rapid tolerance, severe dependence and painful withdrawal.</p>
+            </div>
+          </article>
+
+          <article class="card fact" data-cat="other">
+            <header class="h-other"><h3>Misused prescription medicines</h3><span class="chip">Other risks</span></header>
+            <div class="body">
+              <h4>What it does</h4><p>Sleeping pills, sedatives, ADHD or pain medicines are made for a specific person and condition. Using someone else's or using more than prescribed changes how they act.</p>
+              <h4>Short-term risks</h4><p>Unpredictable reactions, overdose, and dangerous interactions with alcohol or other medicines.</p>
+              <h4>Longer-term risks</h4><p>Dependence and health problems. Only take medicine as directed for you by a doctor or pharmacist.</p>
+            </div>
+          </article>
+
+          <article class="card fact" data-cat="other">
+            <header class="h-other"><h3>Inhalants</h3><span class="chip">Other risks</span></header>
+            <div class="body">
+              <h4>What it does</h4><p>Everyday products such as solvents, glues or sprays are not made to be breathed in. Their fumes quickly affect the brain.</p>
+              <h4>Short-term risks</h4><p>Dizziness, confusion, and sudden death from heart or breathing problems, even the very first time.</p>
+              <h4>Longer-term risks</h4><p>Damage to the brain, lungs, liver and kidneys, and memory problems.</p>
+            </div>
+          </article>
+
+          <article class="card fact" data-cat="halluc">
+            <header class="h-halluc"><h3>Hallucinogens &amp; "party drugs"</h3><span class="chip">Mind-altering · Illegal</span></header>
+            <div class="body">
+              <h4>What it does</h4><p>Distorts perception, thoughts and sense of time, and can raise body temperature and heart rate.</p>
+              <h4>Short-term risks</h4><p>Panic, confusion, dangerous behavior, overheating and dehydration. Pills and powders sold on the street can contain unknown substances.</p>
+              <h4>Longer-term risks</h4><p>Lasting anxiety or mood problems for some people, and harm from repeated use.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="callout warn">
+          <strong>Mixing is extra risky</strong>
+          Combining substances, including alcohol with medicines, can multiply the dangers in ways that are hard to predict.
+        </div>
+
+        <div class="lesson-nav">
+          <a class="btn btn-white" href="index.html">← Home</a>
+          <a class="btn" href="brain.html">Next: Your Brain →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>StraightTalk</strong>: educational use only, not medical advice. In an emergency call 911. <a href="help.html">See help options</a>.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
